@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+img.thumbnail {
+    width: 200px;
+    height: auto;
+}
+
+p.description {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+ul.ingredients {
+    font-weight: bold;
+}
