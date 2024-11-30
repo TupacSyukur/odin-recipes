@@ -1,10 +1,53 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 1000px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 10px;
+}
+
+.thumbnail-container {
+    background: #e3f4ff;
+}
+
+.title {
+    background: #e3f4ff;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.description {
+    background: #e3f4ff;
+    padding: 16px 8px;
+}
+
+.ingredients {
+    background: #e3f4ff;
+    padding: 16px 8px;
+    margin-bottom: 8px;
+}
+
+.tutorial {
+    background: #e3f4ff;
+    padding: 16px 8px;
+}
+
 h1 {
+    text-align: center;
+}
+
+div.thumbnail-container {
     text-align: center;
 }
 
 img.thumbnail {
     width: 200px;
     height: auto;
+    padding: 8px;
 }
 
 p.description {
@@ -13,6 +56,6 @@ p.description {
     font-weight: bold;
 }
 
-ul.ingredients {
+.ingredients ul {
     font-weight: bold;
 }
